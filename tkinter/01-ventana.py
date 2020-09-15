@@ -42,9 +42,9 @@ class Programa:
     def sefTitle(self, title):
         self.title = title
 
-    def addText(self,dato):
-        texto = Label(self.ventana, text=dato)
-        texto.pack()
+    def addText(self, dato):
+       texto = Label(self.ventana, text=dato)
+       texto.pack()
 
     def mostrar(self):
         self.ventana.mainloop()
